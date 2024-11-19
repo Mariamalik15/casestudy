@@ -1,0 +1,32 @@
+ Cyclistic Bike Share Case Study
+
+Project Overview
+This project is part of the Google Data Analytics Capstone and focuses on analyzing the historical bike-share data from Cyclistic to uncover insights about ride usage patterns. The goal is to help the company convert casual riders into annual members, a more profitable customer segment.
+
+ Dataset
+The data comes from Cyclistic's fleet of 5,824 bicycles, tracked and locked across 692 stations in Chicago. The dataset includes ride timestamps, bike types, station information, and membership status for casual and annual members.
+
+ SQL Scripts
+This project is broken down into the following key phases:
+1. Prepare (`sql/1_prepare.sql`)
+- Purpose Clean and prepare the raw data by handling missing values and performing initial transformations.
+- Key Operations Removing nulls, date conversion, column renaming.
+
+ 2. Process (`sql/2_process.sql`)
+- Purpose Clean and filter the data for analysis, ensuring the data is free from duplicates and irrelevant records.
+- Key Operations Removing duplicates, filtering out invalid records, data aggregation.
+
+ 3.Analyze (`sql/3_analyze.sql`)
+- Purpose: Analyze the processed data to uncover key insights related to ride durations, frequency, and station usage.
+- Key Operations Aggregating data by bike type, calculating ride duration statistics, identifying trends and correlations.
+
+ Visualizations
+In addition to the SQL queries, I used Power BI to create various visualizations to illustrate the trends and findings from my analysis. You can explore the visualizations in the `visualizations/` folder.
+
+How to Run
+1. Download or clone this repository.
+2. Run the SQL queries in your SQL environment (Google BigQuery, MySQL, etc.).
+3. Review the results in the results folder or visualize them using Power BI.
+
+ Conclusion
+This analysis provides valuable insights into the behavior of casual riders versus annual members, which can help Cyclistic target their marketing strategies more effectively.
